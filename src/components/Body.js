@@ -4,18 +4,19 @@ import { AiFillAndroid, AiFillApple, AiOutlineArrowLeft } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 function Body() {
   return (
-    <div className="container h-full mx-auto flex-row mb-16 ml-12 grid lg:gap-0 gap-16 lg:grid-cols-2 w-full items-center space-x-8">
+    <div className="container mx-auto flex-row mb-16 ml-12 grid lg:gap-0 gap-16 lg:grid-cols-2 w-full items-center space-x-8">
       {/* Text  */}
       <div className="items-center ">
-        <h1 className="sm:text-5xl text-3xl font-bold">Job Finder</h1>
+        <h1 className="sm:text-5xl text-3xl font-bold">Gbera</h1>
         <p className="sm:w-3/4 leading-8 my-8 text-lg">
-          JobFinder simplifies the application process, enabling users to apply
-          for jobs with just a few taps. The app offers a hassle-free experience
-          for both employers and job seekers, streamlining the hiring process
-          and enhancing job discovery using RapidAPI. Additionally, JobFinder
-          generates confirmation details, providing users with a convenient way
-          to track their applications. Through its user-friendly interface and
-          efficient features.
+          I developed an application named "Gbera" featuring a user-friendly
+          signup and login interface and Firebase. Within the app, there is a
+          robust search feature that seamlessly integrates with Google Location
+          Services. This functionality enables users to effortlessly input their
+          desired locations, subsequently revealing a curated list of premier
+          attractions, hotels, and restaurants retrieved through the Rapid API.
+          Furthermore, the app facilitates streamlined booking processes,
+          culminating in the generation of a QR code for confirmation purposes.
         </p>
 
         <div className="flex p-2 ">
@@ -41,7 +42,7 @@ function Body() {
         {/* Github link */}
         <div className="flex p-4 items-center space-x-4 ">
           <a
-            href="https://github.com/tolu-og/job-finder"
+            href="https://github.com/tolu-og/gbera"
             target="_blank "
             rel="noopener noreferrer"
           >
